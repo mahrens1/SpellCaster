@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField]float speed = 10f;
-    [SerializeField]float jumpForce = 10f;
+    [SerializeField] GameObject projectile;
+    [SerializeField] float speed = 10f;
+    [SerializeField] float jumpForce = 10f;
 
     private Rigidbody playerRb;
     private Vector2 input;
@@ -25,6 +26,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+        }
+
+        //Shoot
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            
         }
     }
 

@@ -4,57 +4,34 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    float speed = 10f;
+    float jumpForce = 10f;
 
-    [SerializeField] float speed = 10;
-
-    private Vector2 playerInput;
-
-    private Rigidbody characterRig;
-    private Collider characterCollider;
-
+    Rigidbody playerRb;
+    Vector2 input;
 
     void Start()
     {
-        characterRig = GetComponent<Rigidbody>();
-        characterCollider = GetComponent<Collider>();
+        playerRb = GetComponent<Rigidbody>();
     }
 
     private void FixedUpdate()
     {
-        var inputDirection = new Vector3(playerInput.x, 0, playerInput.y);
+        var moveDirecton = new Vector2(input.x, input.y);
 
-        if (Input.GetKeyDown(KeyCode.A))
+        playerRb.AddForce(moveDirecton * speed);
+
+        //Jump
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            inputDirection.x = speed;
+            playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         }
-
-        characterRig.AddForce((inputDirection * Time.deltaTime) , ForceMode.Impulse);
     }
 
     void Update()
     {
-        playerInput.x = Input.GetAxisRaw("Horizontal");
-        playerInput.y = Input.GetAxisRaw("Vertical");
-    }
-
-    //Methods
-    void LeftMovement()
-    {
-        characterRig.AddForce(new Vector3(speed, 0, 0), ForceMode.Impulse);
-    }
-
-    void RightMovement()
-    {
-
-    }
-
-    void Jump()
-    {
-
-    }
-
-    void ShootSpell()
-    {
-
+        input.x = Input.GetAxisRaw("Horizontal");
+        input.y = Input.GetAxisRaw("Vertical");
     }
 }
+

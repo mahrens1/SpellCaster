@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float speed = 10f;
-    float jumpForce = 10f;
+    [SerializeField]float speed = 10f;
+    [SerializeField]float jumpForce = 10f;
 
-    Rigidbody playerRb;
-    Vector2 input;
+    private Rigidbody playerRb;
+    private Vector2 input;
 
     void Start()
     {
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Update()
+    private void Update()
     {
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");

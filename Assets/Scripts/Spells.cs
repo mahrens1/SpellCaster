@@ -16,7 +16,7 @@ public class Spells : MonoBehaviour
 
     void Start()
     {
-        m_Rigidbody.AddForce(transform.forward * m_Speed);
+        m_Rigidbody.AddForce(transform.forward * m_Speed, ForceMode.Impulse);
         Destroy(gameObject, m_Lifespan);
     }
 }

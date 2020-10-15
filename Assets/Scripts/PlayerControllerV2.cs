@@ -7,8 +7,10 @@ public class PlayerControllerV2 : MonoBehaviour
     [SerializeField] private float accelerationForce = 10;
     [SerializeField] private float maxSpeed = 2;
     [SerializeField] private PhysicMaterial stoppingPhysicsMaterial, movingPhysicsMaterial;
+    [SerializeField] float jumpForce = 10f;
+    //[SerializeField] GameObject projectile;
 
-    private new Rigidbody rigidbody;
+    private new Rigidbody playerRb;
     private Vector2 input;
     private new Collider collider;
 
@@ -17,7 +19,7 @@ public class PlayerControllerV2 : MonoBehaviour
 
     private void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        playerRb = GetComponent<Rigidbody>();
         collider = GetComponent<Collider>();
     }
 
@@ -33,24 +35,21 @@ public class PlayerControllerV2 : MonoBehaviour
 
         collider.material = inputDirection.magnitude > 0 ? movingPhysicsMaterial : stoppingPhysicsMaterial;
 
-        //if(inputDirection.magnitude > 0)
-        //{
-        //    collider.material = movingPhysicsMaterial;
-        //}
-        //else
-        //{
-        //    collider.material = stoppingPhysicsMaterial;
-        //}
-
-        if (rigidbody.velocity.magnitude < maxSpeed)
+        if (playerRb.velocity.magnitude < maxSpeed)
         {
-            rigidbody.AddForce(cameraRelativeInputDirection * accelerationForce, ForceMode.Acceleration);
+            playerRb.AddForce(cameraRelativeInputDirection * accelerationForce, ForceMode.Acceleration);
         }
 
         if (cameraRelativeInputDirection.magnitude > 0)
         {
             var targetRotation = Quaternion.LookRotation(cameraRelativeInputDirection);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnspeed);
+        }
+
+        //Jump
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         }
 
     }

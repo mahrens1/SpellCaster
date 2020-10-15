@@ -172,4 +172,4 @@ public class CameraController : MonoBehaviour
         m_InterpolatingCameraState.UpdateTransform(transform);
     }
 }
-}
+

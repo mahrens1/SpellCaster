@@ -15,7 +15,7 @@ public class PlayerControllerV2 : MonoBehaviour
     private new Collider collider;
 
     [SerializeField] [Tooltip("0 = No Turning, 1 = Instant Snap")] [Range(0, 1)] private float turnspeed = 0.1f;
-    [SerializeField]
+    
 
     private void Start()
     {

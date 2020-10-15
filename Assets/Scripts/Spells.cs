@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Spells : MonoBehaviour
 {
-    public float m_Speed = 130f;   
-    public float m_Lifespan = 3f; 
+    [SerializeField] private float m_Speed = 130f;
+    [SerializeField] private float m_Lifespan = 3f; 
 
     private Rigidbody m_Rigidbody;
 

@@ -9,18 +9,18 @@ public class SpellTrigger : MonoBehaviour
     public Transform m_SpawnTransform;
     public IEnumerator coroutine;
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            StartCoroutine(Attack());
+            StartCoroutine(Attack(3));
         }
     }
 
-    public IEnumerator Attack()
+    public IEnumerator Attack(float firerate)
     {    
         Instantiate(m_Projectile, m_SpawnTransform.position, m_SpawnTransform.rotation);
-        yield return StartCoroutine(WaitForCooldown(3));
+        yield return StartCoroutine(WaitForCooldown(firerate));
     }
 
     public IEnumerator WaitForCooldown(float cooldown)

@@ -7,13 +7,23 @@ public class SpellTrigger : MonoBehaviour
 {
     public GameObject m_Projectile;    
     public Transform m_SpawnTransform;
-    public IEnumerator coroutine;
+    public bool canShoot;
+
+    private void Start()
+    {
+        canShoot = true;
+    }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            StartCoroutine(Attack(3));
+            if (canShoot)
+            {
+                canShoot = false;
+                StartCoroutine(Attack(3));
+            }
+
         }
     }
 
@@ -21,6 +31,7 @@ public class SpellTrigger : MonoBehaviour
     {    
         Instantiate(m_Projectile, m_SpawnTransform.position, m_SpawnTransform.rotation);
         yield return StartCoroutine(WaitForCooldown(firerate));
+        canShoot = true;
     }
 
     public IEnumerator WaitForCooldown(float cooldown)

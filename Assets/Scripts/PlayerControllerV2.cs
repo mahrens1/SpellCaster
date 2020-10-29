@@ -50,7 +50,7 @@ public class PlayerControllerV2 : MonoBehaviour
         }
 
         //Jump
-        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+        if (Input.GetKey(KeyCode.Space) && isOnGround)
         {
             isOnGround = false;
             playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);

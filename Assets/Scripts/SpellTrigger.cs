@@ -29,6 +29,12 @@ public class SpellTrigger : MonoBehaviour
             }
 
         }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+
+        }
+
     }
 
     public IEnumerator Attack(float firerate)

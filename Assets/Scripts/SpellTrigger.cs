@@ -32,9 +32,25 @@ public class SpellTrigger : MonoBehaviour
 
         if (Input.GetKey(KeyCode.E))
         {
-
+            SwitchSpellState();
         }
 
+    }
+
+    private void SwitchSpellState()
+    {
+        switch (State)
+        {
+            case SpellState.fireball:
+
+                State = SpellState.lightningbolt;
+                break;
+
+            case SpellState.lightningbolt:
+
+                State = SpellState.fireball;
+                break;
+        }
     }
 
     public IEnumerator Attack(float firerate)

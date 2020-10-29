@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEditorInternal;
 using UnityEngine;
 
+public enum SpellState { fireball, lightningbolt}
+
 public class SpellTrigger : MonoBehaviour
 {
     public GameObject m_Projectile;    
     public Transform m_SpawnTransform;
     public bool canShoot;
+
+    public SpellState State;
 
     private void Start()
     {

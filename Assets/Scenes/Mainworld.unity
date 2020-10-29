@@ -871,6 +871,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6948531168083568891, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: projectileList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948531168083568891, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: projectileList.Array.data[0]
+      value: 
+      objectReference: {fileID: 7850638075514364026, guid: 80889fe42a95af6439f9c88a24430feb,
+        type: 3}
+    - target: {fileID: 6948531168083568891, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: projectileList.Array.data[1]
+      value: 
+      objectReference: {fileID: 8146189461383760296, guid: 5629e4cdb27078743bc782168bd62a48,
+        type: 3}
     - target: {fileID: 6948531168083568895, guid: 83cc7b7e472ef2a499823e7a14421e36,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4076,7 +4093,7 @@ PrefabInstance:
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.04798326
+      value: -0.047983255
       objectReference: {fileID: 0}
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -4091,7 +4108,7 @@ PrefabInstance:
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.38328248
+      value: -0.38328245
       objectReference: {fileID: 0}
     - target: {fileID: 1135313547402801290, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}

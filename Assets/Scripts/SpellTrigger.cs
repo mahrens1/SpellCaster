@@ -3,17 +3,57 @@ using System.Collections.Generic;
 using UnityEditorInternal;
 using UnityEngine;
 
+public enum SpellState { fireball, lightningbolt }
+
 public class SpellTrigger : MonoBehaviour
 {
     public GameObject m_Projectile;    
     public Transform m_SpawnTransform;
-    public IEnumerator coroutine;
+    public bool canShoot;
+
+    public List<GameObject> projectileList;
+
+    public SpellState State;
+
+    private void Start()
+    {
+        canShoot = true;
+    }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            StartCoroutine(Attack(3));
+            if (canShoot)
+            {
+                canShoot = false;
+                StartCoroutine(Attack(3));
+            }
+
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            SwitchSpellState();
+        }
+
+    }
+
+    private void SwitchSpellState()
+    {
+        switch (State)
+        {
+            case SpellState.fireball:
+
+                State = SpellState.lightningbolt;
+                m_Projectile = projectileList[0];
+                break;
+
+            case SpellState.lightningbolt:
+
+                State = SpellState.fireball;
+                m_Projectile = projectileList[1];
+                break;
         }
     }
 
@@ -21,6 +61,7 @@ public class SpellTrigger : MonoBehaviour
     {    
         Instantiate(m_Projectile, m_SpawnTransform.position, m_SpawnTransform.rotation);
         yield return StartCoroutine(WaitForCooldown(firerate));
+        canShoot = true;
     }
 
     public IEnumerator WaitForCooldown(float cooldown)

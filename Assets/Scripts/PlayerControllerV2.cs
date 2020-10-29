@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,11 +9,11 @@ public class PlayerControllerV2 : MonoBehaviour
     [SerializeField] private float maxSpeed = 2;
     [SerializeField] private PhysicMaterial stoppingPhysicsMaterial, movingPhysicsMaterial;
     [SerializeField] float jumpForce = 10f;
-    //[SerializeField] GameObject projectile;
 
     private new Rigidbody playerRb;
     private Vector2 input;
     private new Collider collider;
+    private bool isOnGround;
 
     [SerializeField] [Tooltip("0 = No Turning, 1 = Instant Snap")] [Range(0, 1)] private float turnspeed = 0.1f;
     
@@ -21,6 +22,8 @@ public class PlayerControllerV2 : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         collider = GetComponent<Collider>();
+
+        isOnGround = true;
     }
 
     private void FixedUpdate()
@@ -47,11 +50,20 @@ public class PlayerControllerV2 : MonoBehaviour
         }
 
         //Jump
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
         {
+            isOnGround = false;
             playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         }
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.other.gameObject.tag == "ground")
+        {
+            isOnGround = true;
+        }
     }
 
     private void Update()

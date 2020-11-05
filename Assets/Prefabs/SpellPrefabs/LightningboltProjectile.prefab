@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 3818902868095300026}
   - component: {fileID: 6296619496610130531}
   m_Layer: 0
-  m_Name: Lightningbolt
-  m_TagString: Untagged
+  m_Name: LightningboltProjectile
+  m_TagString: Spells
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

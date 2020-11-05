@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7112504287081249882}
   - component: {fileID: 2643368551655511536}
   m_Layer: 0
-  m_Name: FireballSpell
-  m_TagString: Untagged
+  m_Name: FireballSpellProjectile
+  m_TagString: Spells
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -29,9 +29,10 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Spell")
+        if(other.tag == "Spells")
         {
             curHealth--;
+            Destroy(other.gameObject);
         }
     }
 

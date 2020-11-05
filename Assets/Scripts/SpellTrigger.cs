@@ -7,6 +7,8 @@ public enum SpellState { fireball, lightningbolt }
 
 public class SpellTrigger : MonoBehaviour
 {
+    [SerializeField] int shotCooldown;
+
     public GameObject m_Projectile;    
     public Transform m_SpawnTransform;
     public bool canShoot;
@@ -27,7 +29,7 @@ public class SpellTrigger : MonoBehaviour
             if (canShoot)
             {
                 canShoot = false;
-                StartCoroutine(Attack(3));
+                StartCoroutine(Attack());
             }
 
         }
@@ -57,10 +59,10 @@ public class SpellTrigger : MonoBehaviour
         }
     }
 
-    public IEnumerator Attack(float firerate)
+    public IEnumerator Attack()
     {    
         Instantiate(m_Projectile, m_SpawnTransform.position, m_SpawnTransform.rotation);
-        yield return StartCoroutine(WaitForCooldown(firerate));
+        yield return StartCoroutine(WaitForCooldown(shotCooldown));
         canShoot = true;
     }
 

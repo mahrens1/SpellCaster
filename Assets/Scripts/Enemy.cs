@@ -16,6 +16,8 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Look into using properties.
+        //Ask David later.
         if(curHealth > maxHealth)
         {
             curHealth = maxHealth;
@@ -27,13 +29,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void TakeDamage(float amount)
     {
-        if(other.tag == "Spells")
-        {
-            curHealth--;
-            Destroy(other.gameObject);
-        }
+        curHealth -= amount;
     }
 
 }

@@ -4,32 +4,14 @@ using UnityEngine;
 
 public class OpenDoors : MonoBehaviour
 {
-    bool enemiesPresent;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] EnemysClearedTrigger trigger;
 
     // Update is called once per frame
     void Update()
     {
-        if (!enemiesPresent)
+        if (!trigger.enemiesPresent)
         {
-            
+            Destroy(gameObject);
         }   
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("enemy"))
-        {
-            enemiesPresent = true;
-        }
-        else
-        {
-            enemiesPresent = false;
-        }
     }
 }

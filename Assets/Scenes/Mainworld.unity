@@ -1950,6 +1950,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 132654968}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &133705359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 335690919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &133705360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133705359}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54d167a2d858e044a6f897817ddda0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1677233789}
 --- !u!1 &141528406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2900,7 +2919,7 @@ PrefabInstance:
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.009211816
+      value: 0.0092118215
       objectReference: {fileID: 0}
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -2910,17 +2929,17 @@ PrefabInstance:
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.123878576
+      value: 0.12387858
       objectReference: {fileID: 0}
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.073583044
+      value: 0.07358309
       objectReference: {fileID: 0}
     - target: {fileID: 1135313547402801290, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.010545492
+      value: 0.0105454875
       objectReference: {fileID: 0}
     - target: {fileID: 1135313547402801290, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -2935,7 +2954,7 @@ PrefabInstance:
     - target: {fileID: 1135313547402801290, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.073403895
+      value: 0.073403865
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eec86197d9106fd418ee2265a78e43e6, type: 3}
@@ -3071,7 +3090,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-69980
+  m_Name: pb_Mesh17180
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9113,7 +9132,7 @@ GameObject:
   - component: {fileID: 798938385}
   m_Layer: 0
   m_Name: Target
-  m_TagString: damageables
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19187,7 +19206,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164426865}
-  m_LocalRotation: {x: -0.010545273, y: 0.98711234, z: -0.14180955, w: -0.07340386}
+  m_LocalRotation: {x: -0.010545264, y: 0.98711234, z: -0.14180955, w: -0.0734038}
   m_LocalPosition: {x: -9.970772, y: 5, z: -40.017056}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -23633,6 +23652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573472397}
+  - component: {fileID: 1573472398}
   m_Layer: 0
   m_Name: LockedDoor
   m_TagString: Untagged
@@ -23657,6 +23677,19 @@ Transform:
   m_Father: {fileID: 141528407}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573472398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573472396}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54d167a2d858e044a6f897817ddda0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1677233789}
 --- !u!1001 &1582723819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24541,9 +24574,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1677233788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c54d167a2d858e044a6f897817ddda0e, type: 3}
+  m_Script: {fileID: 11500000, guid: d551a3f0bc778934bb0bf3e0ab790d4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemiesPresent: 0
 --- !u!114 &1677233790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25516,7 +25550,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh56154
+  m_Name: pb_Mesh16526
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

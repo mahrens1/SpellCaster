@@ -7,6 +7,7 @@ TagManager:
   - ground
   - Spells
   - damageables
+  - enemy
   layers:
   - Default
   - TransparentFX

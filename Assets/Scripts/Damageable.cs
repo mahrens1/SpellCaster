@@ -6,13 +6,6 @@ public class Damageable : MonoBehaviour
 {
     [SerializeField] float health;
 
-
-    void Start()
-    {
-        
-    }
-
-
     void Update()
     {
         if (health <= 0)

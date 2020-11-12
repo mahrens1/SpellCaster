@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float maxHealth;
     public float curHealth;
+    public float damage;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,13 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float amount)
     {
         curHealth -= amount;
+    }
+
+    public float DealDamageToPlayer(float playerHealth)
+    {
+        playerHealth -= damage;
+
+        return playerHealth;
     }
 
 }

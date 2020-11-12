@@ -14,6 +14,7 @@ public class PlayerControllerV2 : MonoBehaviour
     private Vector2 input;
     private new Collider collider;
     private bool isOnGround;
+    public float curHealth;
 
     [SerializeField] [Tooltip("0 = No Turning, 1 = Instant Snap")] [Range(0, 1)] private float turnspeed = 0.1f;
     
@@ -63,6 +64,13 @@ public class PlayerControllerV2 : MonoBehaviour
         if(collision.other.gameObject.tag == "ground")
         {
             isOnGround = true;
+        }    
+        
+        if(collision.other.gameObject.tag == "enemy")
+        {
+            var enemy = collision.other.gameObject.GetComponent<Enemy>();
+
+            curHealth = enemy.DealDamageToPlayer(curHealth);
         }
     }
 

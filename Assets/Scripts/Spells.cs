@@ -23,11 +23,18 @@ public class Spells : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("damageables"))
+        if (other.CompareTag("enemy"))
         {
             var enemy = other.GetComponent<Enemy>();
 
             enemy.TakeDamage(damage);
+            Destroy(gameObject);
+        }
+        if (other.CompareTag("damageables"))
+        {
+            var damageable = other.GetComponent<Damageable>();
+
+            damageable.TakeDamage(damage);
             Destroy(gameObject);
         }
     }

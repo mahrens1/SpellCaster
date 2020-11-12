@@ -14,7 +14,11 @@ public class EnemysClearedTrigger : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (!other.CompareTag("enemy"))
+        if (other.CompareTag("enemy"))
+        {
+            enemiesPresent = true;
+        }
+        else
         {
             enemiesPresent = false;
         }

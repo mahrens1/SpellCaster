@@ -19,6 +19,7 @@ public class SpellTrigger : MonoBehaviour
     private void Start()
     {
         canShoot = true;
+        State = SpellState.fireball;
     }
 
     private void Update()

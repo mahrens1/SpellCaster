@@ -18,12 +18,6 @@ public class Fireball : MonoBehaviour
         Destroy(gameObject, m_Lifespan);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("enemy"))
@@ -33,7 +27,7 @@ public class Fireball : MonoBehaviour
             enemy.TakeDamage(damage);
             Destroy(gameObject);
         }
-        if (other.CompareTag("damageables"))
+        else if (other.CompareTag("damageables"))
         {
             var damageable = other.GetComponent<Damageable>();
 

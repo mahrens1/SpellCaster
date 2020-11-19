@@ -9,7 +9,7 @@ public class SpellTrigger : MonoBehaviour
     [SerializeField] int shotCooldown;
 
     public GameObject m_Projectile;    
-    public Transform m_SpawnTransform;
+    public Transform playerTransform;
     public bool canShoot;
 
     public List<GameObject> projectileList;
@@ -60,8 +60,8 @@ public class SpellTrigger : MonoBehaviour
     }
 
     public IEnumerator Attack()
-    {    
-        Instantiate(m_Projectile, m_SpawnTransform.position, m_SpawnTransform.rotation);
+    {
+        Instantiate(m_Projectile, playerTransform.position, playerTransform.rotation);
         yield return StartCoroutine(WaitForCooldown(shotCooldown));
         canShoot = true;
     }

@@ -15,6 +15,9 @@ public class PlayerControllerV2 : MonoBehaviour
     private new Collider collider;
     private bool isOnGround;
     public float curHealth;
+    private Animator animator;
+    private readonly int movementAnimParam = Animator.StringToHash("movementInput");
+    private readonly int jumpAnimParam = Animator.StringToHash("jumpInput");
 
     [SerializeField] [Tooltip("0 = No Turning, 1 = Instant Snap")] [Range(0, 1)] private float turnspeed = 0.1f;
     
@@ -23,6 +26,7 @@ public class PlayerControllerV2 : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         collider = GetComponent<Collider>();
+        animator = GetComponentInChildren<Animator>();
 
         isOnGround = true;
     }
@@ -57,6 +61,8 @@ public class PlayerControllerV2 : MonoBehaviour
             playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         }
 
+        //JumpInput();
+
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -78,5 +84,25 @@ public class PlayerControllerV2 : MonoBehaviour
     {
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
+
+        movementInput();
+    }
+
+    /// <summary>
+    /// Changes the players run and idle animation.
+    /// </summary>
+    public void movementInput()
+    {
+        animator.SetFloat(movementAnimParam, input.magnitude);
+
+    }
+
+    /// <summary>
+    /// Changes to jump animation.
+    /// </summary>
+    public void JumpInput()
+    {
+
+        animator.SetFloat(jumpAnimParam, input.y);
     }
 }

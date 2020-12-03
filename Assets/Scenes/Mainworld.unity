@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 617ffde7cf4497b4bb5f5eef770ae6d5, type: 2}
 --- !u!1001 &2072636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -201,6 +201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -266,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.52013
@@ -329,6 +337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.35026
@@ -391,6 +403,10 @@ PrefabInstance:
     - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_Name
       value: wall_passage.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 406010, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_LocalPosition.x
@@ -777,7 +793,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh56186
+  m_Name: pb_Mesh16868
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1138,6 +1154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.51995
@@ -1268,6 +1288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.870003
@@ -1331,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.452567
@@ -1393,6 +1421,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1646,6 +1678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40.62
@@ -1698,6 +1734,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 93421979}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &95834299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95834302}
+  - component: {fileID: 95834301}
+  - component: {fileID: 95834300}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &95834300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95834299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &95834301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95834299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &95834302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95834299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &109567782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1771,6 +1873,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1897,6 +2003,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2089,6 +2199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: firewood (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 439422, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.274269
@@ -2151,6 +2265,10 @@ PrefabInstance:
     - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_Name
       value: big_fence (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2277,6 +2395,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2501,6 +2623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.52013
@@ -2563,6 +2689,10 @@ PrefabInstance:
     - target: {fileID: 151826, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
       propertyPath: m_Name
       value: spice_bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 151826, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 422110, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2809,6 +2939,67 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 192629532}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &215482764
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_Name
+      value: DungeonSkeleton_demo
+      objectReference: {fileID: 0}
+    - target: {fileID: 100062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.8701937
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -49.268356
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710707
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710653
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400062, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f227b5017a7c0184a96c2c26f1e4408d, type: 3}
 --- !u!1001 &228026709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2899,7 +3090,7 @@ PrefabInstance:
     - target: {fileID: 1135313545801412971, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.011878636
+      value: 0.011878632
       objectReference: {fileID: 0}
     - target: {fileID: 1135313545801412971, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -2909,12 +3100,12 @@ PrefabInstance:
     - target: {fileID: 1135313545801412971, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.1597412
+      value: 0.15974118
       objectReference: {fileID: 0}
     - target: {fileID: 1135313545801412971, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.07319988
+      value: 0.07319987
       objectReference: {fileID: 0}
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -2939,7 +3130,7 @@ PrefabInstance:
     - target: {fileID: 1135313547402801290, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0105454875
+      value: 0.010545492
       objectReference: {fileID: 0}
     - target: {fileID: 1135313547402801290, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -2954,7 +3145,7 @@ PrefabInstance:
     - target: {fileID: 1135313547402801290, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.073403865
+      value: 0.073403895
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eec86197d9106fd418ee2265a78e43e6, type: 3}
@@ -2968,6 +3159,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3032,6 +3227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree
       objectReference: {fileID: 0}
+    - target: {fileID: 168420, guid: 2b0bf804c6d79704d8c705b94af63855, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 456142, guid: 2b0bf804c6d79704d8c705b94af63855, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.66436
@@ -3090,7 +3289,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17180
+  m_Name: pb_Mesh17508
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3258,6 +3457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -3328,6 +3531,10 @@ PrefabInstance:
     - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
       propertyPath: m_Name
       value: sawing_wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 421656, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3454,6 +3661,10 @@ PrefabInstance:
     - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_Name
       value: wood_wall.021 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3735,6 +3946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 90.54
@@ -3936,6 +4151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.35026
@@ -3998,6 +4217,10 @@ PrefabInstance:
     - target: {fileID: 151826, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
       propertyPath: m_Name
       value: spice_bag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 151826, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 422110, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4129,6 +4352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -4200,6 +4427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: firewood (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 439422, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.274269
@@ -4262,6 +4493,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4327,6 +4562,10 @@ PrefabInstance:
     - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_Name
       value: trunk (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 444580, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4454,6 +4693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.452568
@@ -4516,6 +4759,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4650,7 +4897,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57096
+  m_Name: pb_Mesh-3838
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4659,10 +4906,10 @@ Mesh:
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 180
+    vertexCount: 121
     localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
+      m_Center: {x: -1, y: 0.5, z: 0}
+      m_Extent: {x: 1, y: 0.5, z: 0.9945219}
   m_Shapes:
     vertices: []
     shapes: []
@@ -4679,10 +4926,10 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 02000100000003000400050008000700060009000a000b000e000d000c000f00100011001400130012001500160017001a00190018001b001c001d0020001f001e002100220023002600250024002700280029002c002b002a002d002e002f0032003100300033003400350038003700360039003a003b003e003d003c003f00400041004400430042004500460047004a00490048004b004c004d0050004f004e005100520053005600550054005700580059005c005b005a005d005e005f0062006100600063006400650068006700660069006a006b006e006d006c006f00700071007400730072007500760077007a00790078007b007c007d0080007f007e008100820083008600850084008700880089008c008b008a008d008e008f0092009100900093009400950098009700960099009a009b009e009d009c009f00a000a100a400a300a200a500a600a700aa00a900a800ab00ac00ad00b000af00ae00b100b200b300
+  m_IndexBuffer: 0000010002000300040005000600070008000400090005000a000b000c0009000d0005000e000f0010000d00110005001200130014001100150005001600170018001500190005001a001b001c0019001d0005001e001f0020001d00210005002200230024002100250005002600270028002500290005002a002b002c0029002d0005002e002f0030002d00310005003200330034003100350005003600370038003500390005003a003b003c0039003d0005003e003f0040003d00410005004200430044004100450005004600470048004500490005004a004b004c0049004d0005004e004f0050004d00510005005200530054005100550005005600570058005500590005005a005b005c0059005d0005005e005f0060005d00610005006200630064006100650005006600670068006500690005006a006b006c0069006d0005006e006f0070006d0071000500720073007400710075000500760077007800750003000500
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 180
+    m_VertexCount: 121
     m_Channels:
     - stream: 0
       offset: 0
@@ -4740,8 +4987,8 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 11520
-    _typelessdata: 0000000000000000000000007f85343f7f85343fd3c9973df512d6bd00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000c003b3bc00000000cee6543e7f85343f7f85343fd3c9973df512d6bd00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007f85343f7f85343fd3c9973df512d6bd00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f00000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000000000000000c003b3bc00000000cee6543e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fc003b33ccee6543e000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000c003b3bc00000000cee6543ebea12c3f8085343fb85d603e82379ebe808534b27078733f000080bf0000803f5c8f823e8716593e0000803f0000000000000000180fb1bd00000000c93fd03ebea12c3f8085343fb85d603e82379ebe808534b27078733f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f00000000bea12c3f8085343fb85d603e82379ebe808534b27078733f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fc003b3bc00000000cee6543e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fc003b33ccee6543e180fb1bd00000000c93fd03e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f180fb13dc93fd03e000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000180fb1bd00000000c93fd03e85321d3f8085343f0c84b53efcffffbe00000000d8b35d3f000080bf0000803f5c8f823e8716593e0000803f00000000000000000c9143be000000001879163f85321d3f8085343f0c84b53efcffffbe00000000d8b35d3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000085321d3f8085343f0c84b53efcffffbe00000000d8b35d3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f180fb1bd00000000c93fd03e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f180fb13dc93fd03e0c9143be000000001879163f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0c91433e1879163f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f000000000c9143be000000001879163f7fe4063f7f85343f66eaf23e254c2bbf00000000be3e3e3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000b867a9be00000000be3e3e3f7fe4063f7f85343f66eaf23e254c2bbf00000000be3e3e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007fe4063f7f85343f66eaf23e254c2bbf00000000be3e3e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0c9143be000000001879163f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0c91433e1879163fb867a9be00000000be3e3e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fb867a93ebe3e3e3f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000b867a9be00000000be3e3e3f7c62d53e7f85343f71d9123fbc1b4fbf8085b4321979163f000080bf0000803f5c8f823e8716593e0000803f0000000000000000000000bf00000000d8b35d3f7c62d53e7f85343f71d9123fbc1b4fbf8085b4321979163f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007c62d53e7f85343f71d9123fbc1b4fbf8085b4321979163f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fb867a9be00000000be3e3e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fb867a93ebe3e3e3f000000bf00000000d8b35d3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000003fd8b35d3f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000000000bf00000000d8b35d3f81a8933e7f85343fafd2253f1ede69bf00000000c33fd03e000080bf0000803f5c8f823e8716593e0000803f000000000000000044e430bf000000007178733f81a8933e7f85343fafd2253f1ede69bf00000000c33fd03e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000081a8933e7f85343fafd2253f1ede69bf00000000c33fd03e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f000000bf00000000d8b35d3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000003fd8b35d3f44e430bf000000007178733f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f44e4303f7178733f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f0000000044e430bf000000007178733f02f5163e8085343f9e8c313fe2677abf00000000cee6543e000080bf0000803f5c8f823e8716593e0000803f0000000000000000a03d65bf00000000fd987e3f02f5163e8085343f9e8c313fe2677abf00000000cee6543e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000002f5163e8085343f9e8c313fe2677abf00000000cee6543e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f44e430bf000000007178733f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f44e4303f7178733fa03d65bf00000000fd987e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fa03d653ffd987e3f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000a03d65bf00000000fd987e3f000000008085343f0e84353f000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f000000000000000031618dbf00000000fd987e3f000000008085343f0e84353f000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f00000000000000008085343f0e84353f000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fa03d65bf00000000fd987e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fa03d653ffd987e3f31618dbf00000000fd987e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f31618d3ffd987e3f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f0000000031618dbf00000000fd987e3f07f516be7f85343f9d8c313fe2677abf87853432d5e654be000080bf0000803f5c8f823e8716593e0000803f0000000000000000de8da7bf000000007178733f07f516be7f85343f9d8c313fe2677abf87853432d5e654be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000007f516be7f85343f9d8c313fe2677abf87853432d5e654be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f31618dbf00000000fd987e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f31618d3ffd987e3fde8da7bf000000007178733f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fde8da73f7178733f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000de8da7bf000000007178733f87a893be7f85343fadd2253f1dde69bf7c85b4b2cc3fd0be000080bf0000803f5c8f823e8716593e0000803f00000000000000000000c0bf00000000d7b35d3f87a893be7f85343fadd2253f1dde69bf7c85b4b2cc3fd0be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000087a893be7f85343fadd2253f1dde69bf7c85b4b2cc3fd0be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fde8da7bf000000007178733f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fde8da73f7178733f0000c0bf00000000d7b35d3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000c03fd7b35d3f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f000000000000c0bf00000000d7b35d3f7562d5be7f85343f73d9123fc01b4fbf00000000167916bf000080bf0000803f5c8f823e8716593e0000803f000000000000000013a6d5bf00000000bd3e3e3f7562d5be7f85343f73d9123fc01b4fbf00000000167916bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007562d5be7f85343f73d9123fc01b4fbf00000000167916bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0000c0bf00000000d7b35d3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000c03fd7b35d3f13a6d5bf00000000bd3e3e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f13a6d53fbd3e3e3f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f0000000013a6d5bf00000000bd3e3e3f80e406bf8085343f61eaf23e234c2bbf00000000c13e3ebf000080bf0000803f5c8f823e8716593e0000803f0000000000000000df8de7bf000000001779163f80e406bf8085343f61eaf23e234c2bbf00000000c13e3ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000080e406bf8085343f61eaf23e234c2bbf00000000c13e3ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f13a6d5bf00000000bd3e3e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f13a6d53fbd3e3e3fdf8de7bf000000001779163f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8de73f1779163f000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000df8de7bf000000001779163f85321dbf8085343f0c84b53efcffffbe00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f00000000000000000feff4bf00000000c73fd03e85321dbf8085343f0c84b53efcffffbe00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000085321dbf8085343f0c84b53efcffffbe00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fdf8de7bf000000001779163f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8de73f1779163f0feff4bf00000000c73fd03e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0feff43fc73fd03e000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f000000000feff4bf00000000c73fd03ebfa12cbf7f85343fa95d603e79379ebe7f8534b2727873bf000080bf0000803f5c8f823e8716593e0000803f0000000000000000f133fdbf00000000c8e6543ebfa12cbf7f85343fa95d603e79379ebe7f8534b2727873bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f00000000bfa12cbf7f85343fa95d603e79379ebe7f8534b2727873bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0feff4bf00000000c73fd03e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0feff43fc73fd03ef133fdbf00000000c8e6543e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff133fd3fc8e6543e000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000f133fdbf00000000c8e6543e7f8534bf7f85343fd3c9973df512d6bd00000000fe987ebf000080bf0000803f5c8f823e8716593e0000803f0000000000000000000000c0000000002ebdbbb37f8534bf7f85343fd3c9973df512d6bd00000000fe987ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007f8534bf7f85343fd3c9973df512d6bd00000000fe987ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43ff133fdbf00000000c8e6543e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff133fd3fc8e6543e000000c0000000002ebdbbb300000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f000000402ebdbbb3000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000000000c0000000002ebdbbb37f8534bf7f85343f0aca97bd3f13d63d00000000fc987ebf000080bf0000803f5c8f823e8716593e0000803f0000000000000000f033fdbf00000000d4e654be7f8534bf7f85343f0aca97bd3f13d63d00000000fc987ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007f8534bf7f85343f0aca97bd3f13d63d00000000fc987ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f000000c0000000002ebdbbb300000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f000000402ebdbbb3f033fdbf00000000d4e654be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff033fd3fd4e654be000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000f033fdbf00000000d4e654bec0a12cbf7f85343fa15d60be72379e3e8d853432727873bf000080bf0000803f5c8f823e8716593e0000803f00000000000000000feff4bf00000000c53fd0bec0a12cbf7f85343fa15d60be72379e3e8d853432727873bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f00000000c0a12cbf7f85343fa15d60be72379e3e8d853432727873bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43ff033fdbf00000000d4e654be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff033fd3fd4e654be0feff4bf00000000c53fd0be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0feff43fc53fd0be000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f000000000feff4bf00000000c53fd0be85321dbf7f85343f0c84b5befcffff3e00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f0000000000000000df8de7bf00000000167916bf85321dbf7f85343f0c84b5befcffff3e00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000085321dbf7f85343f0c84b5befcffff3e00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0feff4bf00000000c53fd0be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0feff43fc53fd0bedf8de7bf00000000167916bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8de73f167916bf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000df8de7bf00000000167916bf80e406bf7f85343f62eaf2be234c2b3f7e85b4b2c13e3ebf000080bf0000803f5c8f823e8716593e0000803f000000000000000013a6d5bf00000000bc3e3ebf80e406bf7f85343f62eaf2be234c2b3f7e85b4b2c13e3ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000080e406bf7f85343f62eaf2be234c2b3f7e85b4b2c13e3ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fdf8de7bf00000000167916bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8de73f167916bf13a6d5bf00000000bc3e3ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f13a6d53fbc3e3ebf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f0000000013a6d5bf00000000bc3e3ebf7862d5be8085343f73d912bfbe1b4f3f00000000177916bf000080bf0000803f5c8f823e8716593e0000803f0000000000000000ffffbfbf00000000d8b35dbf7862d5be8085343f73d912bfbe1b4f3f00000000177916bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007862d5be8085343f73d912bfbe1b4f3f00000000177916bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f13a6d5bf00000000bc3e3ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f13a6d53fbc3e3ebfffffbfbf00000000d8b35dbf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fffffbf3fd8b35dbf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000ffffbfbf00000000d8b35dbf86a893be8085343faed225bf1ede693f8b85b432ca3fd0be000080bf0000803f5c8f823e8716593e0000803f0000000000000000df8da7bf00000000707873bf86a893be8085343faed225bf1ede693f8b85b432ca3fd0be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000086a893be8085343faed225bf1ede693f8b85b432ca3fd0be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fffffbfbf00000000d8b35dbf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fffffbf3fd8b35dbfdf8da7bf00000000707873bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8da73f707873bf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000df8da7bf00000000707873bf03f516be7f85343f9d8c31bfe2677a3f728534b2d0e654be000080bf0000803f5c8f823e8716593e0000803f00000000000000002f618dbf00000000fd987ebf03f516be7f85343f9d8c31bfe2677a3f728534b2d0e654be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000003f516be7f85343f9d8c31bfe2677a3f728534b2d0e654be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fdf8da7bf00000000707873bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8da73f707873bf2f618dbf00000000fd987ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f2f618d3ffd987ebf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f000000002f618dbf00000000fd987ebf000000008085343f0e8435bf0000803f0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000000000000000a13d65bf00000000fd987ebf000000008085343f0e8435bf0000803f0000000000000000000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f00000000000000008085343f0e8435bf0000803f0000000000000000000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f2f618dbf00000000fd987ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f2f618d3ffd987ebfa13d65bf00000000fd987ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fa13d653ffd987ebf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000a13d65bf00000000fd987ebf03f5163e7f85343f9d8c31bfe2677a3f72853432d0e6543e000080bf0000803f5c8f823e8716593e0000803f000000000000000041e430bf00000000707873bf03f5163e7f85343f9d8c31bfe2677a3f72853432d0e6543e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000003f5163e7f85343f9d8c31bfe2677a3f72853432d0e6543e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fa13d65bf00000000fd987ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fa13d653ffd987ebf41e430bf00000000707873bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f41e4303f707873bf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f0000000041e430bf00000000707873bf88a8933e7f85343fadd225bf1cde693f8d85b4b2cd3fd03e000080bf0000803f5c8f823e8716593e0000803f0000000000000000020000bf00000000d8b35dbf88a8933e7f85343fadd225bf1cde693f8d85b4b2cd3fd03e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000088a8933e7f85343fadd225bf1cde693f8d85b4b2cd3fd03e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f41e430bf00000000707873bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f41e4303f707873bf020000bf00000000d8b35dbf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0200003fd8b35dbf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000020000bf00000000d8b35dbf7462d53e7f85343f74d912bfc01b4f3f6f85b4321579163f000080bf0000803f5c8f823e8716593e0000803f0000000000000000b267a9be00000000bc3e3ebf7462d53e7f85343f74d912bfc01b4f3f6f85b4321579163f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007462d53e7f85343f74d912bfc01b4f3f6f85b4321579163f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f020000bf00000000d8b35dbf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0200003fd8b35dbfb267a9be00000000bc3e3ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fb267a93ebc3e3ebf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000b267a9be00000000bc3e3ebf81e4063f8085343f60eaf2be224c2b3f8d85b4b2c03e3e3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000109143be00000000197916bf81e4063f8085343f60eaf2be224c2b3f8d85b4b2c03e3e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000081e4063f8085343f60eaf2be224c2b3f8d85b4b2c03e3e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fb267a9be00000000bc3e3ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fb267a93ebc3e3ebf109143be00000000197916bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f1091433e197916bf000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000109143be00000000197916bf83321d3f7f85343f0f84b5be0200003f7285b4b2d7b35d3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000080fb1bd00000000c43fd0be83321d3f7f85343f0f84b5be0200003f7285b4b2d7b35d3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f0000000083321d3f7f85343f0f84b5be0200003f7285b4b2d7b35d3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f109143be00000000197916bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f1091433e197916bf080fb1bd00000000c43fd0be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f080fb13dc43fd0be000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000080fb1bd00000000c43fd0bec0a12c3f8085343fa15d60be72379e3e8e8534b27278733f000080bf0000803f5c8f823e8716593e0000803f0000000000000000e003b3bc00000000d2e654bec0a12c3f8085343fa15d60be72379e3e8e8534b27278733f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f00000000c0a12c3f8085343fa15d60be72379e3e8e8534b27278733f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f080fb1bd00000000c43fd0be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f080fb13dc43fd0bee003b3bc00000000d2e654be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fe003b33cd2e654be000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000e003b3bc00000000d2e654be7f85343f7f85343fecc997bd1813d63d00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f00000000000000000000000000000000000000007f85343f7f85343fecc997bd1813d63d00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000080bf0000803f000000007f85343f7f85343fecc997bd1813d63d00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fe003b3bc00000000d2e654be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fe003b33cd2e654be00000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000000000000000000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000
+    m_DataSize: 7744
+    _typelessdata: 000080bf0000803f000000007f85343f7f85343fd3c9973df512d6bd00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fc003b3bc00000000cee6543e7f85343f7f85343fd3c9973df512d6bd00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f0000000000000000000000007f85343f7f85343fd3c9973df512d6bd00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f000000000000000000000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000000000000000c003b3bc00000000cee6543e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fc003b33ccee6543e000080bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000803f00000000000080bf0000803f00000000bea12c3f8085343fb85d603e82379ebe808534b27078733f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f180fb1bd00000000c93fd03ebea12c3f8085343fb85d603e82379ebe808534b27078733f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fc003b3bc00000000cee6543ebea12c3f8085343fb85d603e82379ebe808534b27078733f000080bf0000803f5c8f823e8716593e0000803f0000000000000000180fb1bd00000000c93fd03e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f180fb13dc93fd03e000080bf0000803f0000000085321d3f8085343f0c84b53efcffffbe00000000d8b35d3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0c9143be000000001879163f85321d3f8085343f0c84b53efcffffbe00000000d8b35d3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f180fb1bd00000000c93fd03e85321d3f8085343f0c84b53efcffffbe00000000d8b35d3f000080bf0000803f5c8f823e8716593e0000803f00000000000000000c9143be000000001879163f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0c91433e1879163f000080bf0000803f000000007fe4063f7f85343f66eaf23e254c2bbf00000000be3e3e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fb867a9be00000000be3e3e3f7fe4063f7f85343f66eaf23e254c2bbf00000000be3e3e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f0c9143be000000001879163f7fe4063f7f85343f66eaf23e254c2bbf00000000be3e3e3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000b867a9be00000000be3e3e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fb867a93ebe3e3e3f000080bf0000803f000000007c62d53e7f85343f71d9123fbc1b4fbf8085b4321979163f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f000000bf00000000d8b35d3f7c62d53e7f85343f71d9123fbc1b4fbf8085b4321979163f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fb867a9be00000000be3e3e3f7c62d53e7f85343f71d9123fbc1b4fbf8085b4321979163f000080bf0000803f5c8f823e8716593e0000803f0000000000000000000000bf00000000d8b35d3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000003fd8b35d3f000080bf0000803f0000000081a8933e7f85343fafd2253f1ede69bf00000000c33fd03e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f44e430bf000000007178733f81a8933e7f85343fafd2253f1ede69bf00000000c33fd03e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000000bf00000000d8b35d3f81a8933e7f85343fafd2253f1ede69bf00000000c33fd03e000080bf0000803f5c8f823e8716593e0000803f000000000000000044e430bf000000007178733f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f44e4303f7178733f000080bf0000803f0000000002f5163e8085343f9e8c313fe2677abf00000000cee6543e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fa03d65bf00000000fd987e3f02f5163e8085343f9e8c313fe2677abf00000000cee6543e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f44e430bf000000007178733f02f5163e8085343f9e8c313fe2677abf00000000cee6543e000080bf0000803f5c8f823e8716593e0000803f0000000000000000a03d65bf00000000fd987e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fa03d653ffd987e3f000080bf0000803f00000000000000008085343f0e84353f000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f31618dbf00000000fd987e3f000000008085343f0e84353f000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fa03d65bf00000000fd987e3f000000008085343f0e84353f000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f000000000000000031618dbf00000000fd987e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f31618d3ffd987e3f000080bf0000803f0000000007f516be7f85343f9d8c313fe2677abf87853432d5e654be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fde8da7bf000000007178733f07f516be7f85343f9d8c313fe2677abf87853432d5e654be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f31618dbf00000000fd987e3f07f516be7f85343f9d8c313fe2677abf87853432d5e654be000080bf0000803f5c8f823e8716593e0000803f0000000000000000de8da7bf000000007178733f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fde8da73f7178733f000080bf0000803f0000000087a893be7f85343fadd2253f1dde69bf7c85b4b2cc3fd0be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0000c0bf00000000d7b35d3f87a893be7f85343fadd2253f1dde69bf7c85b4b2cc3fd0be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fde8da7bf000000007178733f87a893be7f85343fadd2253f1dde69bf7c85b4b2cc3fd0be000080bf0000803f5c8f823e8716593e0000803f00000000000000000000c0bf00000000d7b35d3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000c03fd7b35d3f000080bf0000803f000000007562d5be7f85343f73d9123fc01b4fbf00000000167916bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f13a6d5bf00000000bd3e3e3f7562d5be7f85343f73d9123fc01b4fbf00000000167916bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f0000c0bf00000000d7b35d3f7562d5be7f85343f73d9123fc01b4fbf00000000167916bf000080bf0000803f5c8f823e8716593e0000803f000000000000000013a6d5bf00000000bd3e3e3f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f13a6d53fbd3e3e3f000080bf0000803f0000000080e406bf8085343f61eaf23e234c2bbf00000000c13e3ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fdf8de7bf000000001779163f80e406bf8085343f61eaf23e234c2bbf00000000c13e3ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f13a6d5bf00000000bd3e3e3f80e406bf8085343f61eaf23e234c2bbf00000000c13e3ebf000080bf0000803f5c8f823e8716593e0000803f0000000000000000df8de7bf000000001779163f00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8de73f1779163f000080bf0000803f0000000085321dbf8085343f0c84b53efcffffbe00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0feff4bf00000000c73fd03e85321dbf8085343f0c84b53efcffffbe00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fdf8de7bf000000001779163f85321dbf8085343f0c84b53efcffffbe00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f00000000000000000feff4bf00000000c73fd03e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0feff43fc73fd03e000080bf0000803f00000000bfa12cbf7f85343fa95d603e79379ebe7f8534b2727873bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43ff133fdbf00000000c8e6543ebfa12cbf7f85343fa95d603e79379ebe7f8534b2727873bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f0feff4bf00000000c73fd03ebfa12cbf7f85343fa95d603e79379ebe7f8534b2727873bf000080bf0000803f5c8f823e8716593e0000803f0000000000000000f133fdbf00000000c8e6543e00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff133fd3fc8e6543e000080bf0000803f000000007f8534bf7f85343fd3c9973df512d6bd00000000fe987ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f000000c0000000002ebdbbb37f8534bf7f85343fd3c9973df512d6bd00000000fe987ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592ff133fdbf00000000c8e6543e7f8534bf7f85343fd3c9973df512d6bd00000000fe987ebf000080bf0000803f5c8f823e8716593e0000803f0000000000000000000000c0000000002ebdbbb300000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f000000402ebdbbb3000080bf0000803f000000007f8534bf7f85343f0aca97bd3f13d63d00000000fc987ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43ff033fdbf00000000d4e654be7f8534bf7f85343f0aca97bd3f13d63d00000000fc987ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f000000c0000000002ebdbbb37f8534bf7f85343f0aca97bd3f13d63d00000000fc987ebf000080bf0000803f5c8f823e8716593e0000803f0000000000000000f033fdbf00000000d4e654be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803ff033fd3fd4e654be000080bf0000803f00000000c0a12cbf7f85343fa15d60be72379e3e8d853432727873bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0feff4bf00000000c53fd0bec0a12cbf7f85343fa15d60be72379e3e8d853432727873bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592ff033fdbf00000000d4e654bec0a12cbf7f85343fa15d60be72379e3e8d853432727873bf000080bf0000803f5c8f823e8716593e0000803f00000000000000000feff4bf00000000c53fd0be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0feff43fc53fd0be000080bf0000803f0000000085321dbf7f85343f0c84b5befcffff3e00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fdf8de7bf00000000167916bf85321dbf7f85343f0c84b5befcffff3e00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f0feff4bf00000000c53fd0be85321dbf7f85343f0c84b5befcffff3e00000000d8b35dbf000080bf0000803f5c8f823e8716593e0000803f0000000000000000df8de7bf00000000167916bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8de73f167916bf000080bf0000803f0000000080e406bf7f85343f62eaf2be234c2b3f7e85b4b2c13e3ebf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f13a6d5bf00000000bc3e3ebf80e406bf7f85343f62eaf2be234c2b3f7e85b4b2c13e3ebf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fdf8de7bf00000000167916bf80e406bf7f85343f62eaf2be234c2b3f7e85b4b2c13e3ebf000080bf0000803f5c8f823e8716593e0000803f000000000000000013a6d5bf00000000bc3e3ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f13a6d53fbc3e3ebf000080bf0000803f000000007862d5be8085343f73d912bfbe1b4f3f00000000177916bf000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fffffbfbf00000000d8b35dbf7862d5be8085343f73d912bfbe1b4f3f00000000177916bf000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f13a6d5bf00000000bc3e3ebf7862d5be8085343f73d912bfbe1b4f3f00000000177916bf000080bf0000803f5c8f823e8716593e0000803f0000000000000000ffffbfbf00000000d8b35dbf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fffffbf3fd8b35dbf000080bf0000803f0000000086a893be8085343faed225bf1ede693f8b85b432ca3fd0be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fdf8da7bf00000000707873bf86a893be8085343faed225bf1ede693f8b85b432ca3fd0be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fffffbfbf00000000d8b35dbf86a893be8085343faed225bf1ede693f8b85b432ca3fd0be000080bf0000803f5c8f823e8716593e0000803f0000000000000000df8da7bf00000000707873bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fdf8da73f707873bf000080bf0000803f0000000003f516be7f85343f9d8c31bfe2677a3f728534b2d0e654be000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f2f618dbf00000000fd987ebf03f516be7f85343f9d8c31bfe2677a3f728534b2d0e654be000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fdf8da7bf00000000707873bf03f516be7f85343f9d8c31bfe2677a3f728534b2d0e654be000080bf0000803f5c8f823e8716593e0000803f00000000000000002f618dbf00000000fd987ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f2f618d3ffd987ebf000080bf0000803f00000000000000008085343f0e8435bf0000803f0000000000000000000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fa13d65bf00000000fd987ebf000000008085343f0e8435bf0000803f0000000000000000000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f2f618dbf00000000fd987ebf000000008085343f0e8435bf0000803f0000000000000000000080bf0000803f5c8f823e8716593e0000803f0000000000000000a13d65bf00000000fd987ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fa13d653ffd987ebf000080bf0000803f0000000003f5163e7f85343f9d8c31bfe2677a3f72853432d0e6543e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f41e430bf00000000707873bf03f5163e7f85343f9d8c31bfe2677a3f72853432d0e6543e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fa13d65bf00000000fd987ebf03f5163e7f85343f9d8c31bfe2677a3f72853432d0e6543e000080bf0000803f5c8f823e8716593e0000803f000000000000000041e430bf00000000707873bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f41e4303f707873bf000080bf0000803f0000000088a8933e7f85343fadd225bf1cde693f8d85b4b2cd3fd03e000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f020000bf00000000d8b35dbf88a8933e7f85343fadd225bf1cde693f8d85b4b2cd3fd03e000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f41e430bf00000000707873bf88a8933e7f85343fadd225bf1cde693f8d85b4b2cd3fd03e000080bf0000803f5c8f823e8716593e0000803f0000000000000000020000bf00000000d8b35dbf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f0200003fd8b35dbf000080bf0000803f000000007462d53e7f85343f74d912bfc01b4f3f6f85b4321579163f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fb267a9be00000000bc3e3ebf7462d53e7f85343f74d912bfc01b4f3f6f85b4321579163f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f020000bf00000000d8b35dbf7462d53e7f85343f74d912bfc01b4f3f6f85b4321579163f000080bf0000803f5c8f823e8716593e0000803f0000000000000000b267a9be00000000bc3e3ebf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fb267a93ebc3e3ebf000080bf0000803f0000000081e4063f8085343f60eaf2be224c2b3f8d85b4b2c03e3e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f109143be00000000197916bf81e4063f8085343f60eaf2be224c2b3f8d85b4b2c03e3e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fb267a9be00000000bc3e3ebf81e4063f8085343f60eaf2be224c2b3f8d85b4b2c03e3e3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000109143be00000000197916bf00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f1091433e197916bf000080bf0000803f0000000083321d3f7f85343f0f84b5be0200003f7285b4b2d7b35d3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f080fb1bd00000000c43fd0be83321d3f7f85343f0f84b5be0200003f7285b4b2d7b35d3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f109143be00000000197916bf83321d3f7f85343f0f84b5be0200003f7285b4b2d7b35d3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000080fb1bd00000000c43fd0be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803f080fb13dc43fd0be000080bf0000803f00000000c0a12c3f8085343fa15d60be72379e3e8e8534b27278733f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43fe003b3bc00000000d2e654bec0a12c3f8085343fa15d60be72379e3e8e8534b27278733f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592f080fb1bd00000000c43fd0bec0a12c3f8085343fa15d60be72379e3e8e8534b27278733f000080bf0000803f5c8f823e8716593e0000803f0000000000000000e003b3bc00000000d2e654be00000000000080bf00000000000080bf0000000000000000000080bf0000803f5c8f823e8716593e0000803fe003b33cd2e654be000080bf0000803f000000007f85343f7f85343fecc997bd1813d63d00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803ff412d63d3286b43f0000000000000000000000007f85343f7f85343fecc997bd1813d63d00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f0513563e6004592fe003b3bc00000000d2e654be7f85343f7f85343fecc997bd1813d63d00000000fe987e3f000080bf0000803f5c8f823e8716593e0000803f0000000000000000
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -5038,7 +5285,7 @@ Transform:
   - {fileID: 391693851}
   - {fileID: 1712931648}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &427216568
 PrefabInstance:
@@ -5050,6 +5297,10 @@ PrefabInstance:
     - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_Name
       value: wood_wall.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5187,6 +5438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -5321,6 +5576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.021 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.7607346
@@ -5392,6 +5651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: firewood
       objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 439422, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.274269
@@ -5454,6 +5717,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5648,6 +5915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: trunk
       objectReference: {fileID: 0}
+    - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 444580, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.299194
@@ -5710,6 +5981,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5781,6 +6056,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5908,6 +6187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.41992
@@ -6034,6 +6317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.52007
@@ -6159,6 +6446,10 @@ PrefabInstance:
     - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_Name
       value: firewood (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 439422, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6416,6 +6707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.35026
@@ -6478,6 +6773,10 @@ PrefabInstance:
     - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_Name
       value: firewood (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 439422, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6605,6 +6904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -6676,6 +6979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60.54
@@ -6738,6 +7045,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6960,6 +7271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4200497
@@ -7022,6 +7337,10 @@ PrefabInstance:
     - target: {fileID: 184116, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
       propertyPath: m_Name
       value: wood_stairs_support
+      objectReference: {fileID: 0}
+    - target: {fileID: 184116, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 436280, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7291,6 +7610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60.54
@@ -7428,6 +7751,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7689,6 +8016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.420038
@@ -7751,6 +8082,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7815,6 +8150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: firewood (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 177444, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 439422, guid: dd95ee52b2d3a914baa7f842b3cf7592, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.274269
@@ -7877,6 +8216,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8017,6 +8360,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6948531168083568890, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: m_TagString
+      value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6948531168083568891, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: projectileList.Array.data[0]
+      value: 
+      objectReference: {fileID: 5280363370220227229, guid: 04b3408743d8d48468a627dbc873f849,
+        type: 3}
+    - target: {fileID: 6948531168083568891, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: m_Projectile
+      value: 
+      objectReference: {fileID: 5280363370220227229, guid: 04b3408743d8d48468a627dbc873f849,
+        type: 3}
+    - target: {fileID: 6948531168083568891, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: projectileList.Array.data[1]
+      value: 
+      objectReference: {fileID: 7373858029738131090, guid: b41b08c9840d41047930ae599880fc3c,
+        type: 3}
+    - target: {fileID: 6948531168083568891, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 1862546247}
     - target: {fileID: 6948531168083568895, guid: 83cc7b7e472ef2a499823e7a14421e36,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8085,6 +8456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed_corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100584, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 450452, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.52257
@@ -8147,6 +8522,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8273,6 +8652,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8589,6 +8972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.452568
@@ -8748,6 +9135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.12
@@ -8810,6 +9201,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8999,6 +9394,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14574,7 +14973,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
 --- !u!114 &798938385
 MonoBehaviour:
@@ -14590,6 +14989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   curHealth: 0
+  damage: 0
 --- !u!1001 &806942955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14600,6 +15000,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14664,6 +15068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.52002
@@ -14726,6 +15134,10 @@ PrefabInstance:
     - target: {fileID: 156340, guid: 9770515ffff23894fa760b75b8b24b51, type: 3}
       propertyPath: m_Name
       value: big_fence.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 156340, guid: 9770515ffff23894fa760b75b8b24b51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 409784, guid: 9770515ffff23894fa760b75b8b24b51, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14797,7 +15209,7 @@ GameObject:
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &811253517
 MeshCollider:
@@ -15357,6 +15769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.021 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.7607346
@@ -15592,6 +16008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.54
@@ -15822,6 +16242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.846
@@ -15876,6 +16300,93 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+--- !u!1 &898844255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100062, guid: f227b5017a7c0184a96c2c26f1e4408d,
+    type: 3}
+  m_PrefabInstance: {fileID: 215482764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &898844256
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898844255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.0901775
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.5450888, z: 0}
+--- !u!54 &898844257
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898844255}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &898844258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898844255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f2e941561717245a78b7bbd8727ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  curHealth: 0
+  damage: 0
+--- !u!114 &898844261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898844255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957085aa9515b9946a76b4aebdf4a2ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2144106027}
+  detectionDistance: 10
+--- !u!195 &898844262
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898844255}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &901124508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16020,6 +16531,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16294,6 +16809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 448174, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.369
@@ -16371,6 +16890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.452567
@@ -16433,6 +16956,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16580,6 +17107,10 @@ PrefabInstance:
     - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_Name
       value: trunk (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 444580, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17011,6 +17542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence.001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 156340, guid: 9770515ffff23894fa760b75b8b24b51, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 409784, guid: 9770515ffff23894fa760b75b8b24b51, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.55143
@@ -17073,6 +17608,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17137,6 +17676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wagon
       objectReference: {fileID: 0}
+    - target: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 481934, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.1612625
@@ -17200,6 +17743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 66.54
@@ -17262,6 +17809,10 @@ PrefabInstance:
     - target: {fileID: 184116, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
       propertyPath: m_Name
       value: wood_stairs_support
+      objectReference: {fileID: 0}
+    - target: {fileID: 184116, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 436280, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17392,6 +17943,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17795,6 +18350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.54
@@ -18151,6 +18710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.021 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.0607338
@@ -18221,6 +18784,10 @@ PrefabInstance:
     - target: {fileID: 184116, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
       propertyPath: m_Name
       value: wood_stairs_support
+      objectReference: {fileID: 0}
+    - target: {fileID: 184116, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 436280, guid: edb0d94010558614c976dfa15f61dee3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19206,7 +19773,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164426865}
-  m_LocalRotation: {x: -0.010545264, y: 0.98711234, z: -0.14180955, w: -0.0734038}
+  m_LocalRotation: {x: -0.010545273, y: 0.98711234, z: -0.14180955, w: -0.07340386}
   m_LocalPosition: {x: -9.970772, y: 5, z: -40.017056}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -19256,6 +19823,10 @@ PrefabInstance:
     - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_Name
       value: big_fence (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19425,6 +19996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: trunk (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 444580, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.299194
@@ -19487,6 +20062,10 @@ PrefabInstance:
     - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_Name
       value: platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 448174, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19585,6 +20164,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19712,6 +20295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -37.87
@@ -19774,6 +20361,10 @@ PrefabInstance:
     - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_Name
       value: platform (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 448174, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19846,6 +20437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.54
@@ -19909,6 +20504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.452567
@@ -19971,6 +20570,10 @@ PrefabInstance:
     - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_Name
       value: big_fence (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20328,6 +20931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.35026
@@ -20521,6 +21128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4200687
@@ -20709,6 +21320,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20909,6 +21524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall_passage.001
       objectReference: {fileID: 0}
+    - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 406010, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.167946
@@ -20971,6 +21590,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21105,6 +21728,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21563,6 +22190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.021 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.0607338
@@ -21704,6 +22335,10 @@ PrefabInstance:
     - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_Name
       value: trunk (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 444580, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21873,6 +22508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.467269
@@ -22011,6 +22650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall_passage.001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 406010, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5607338
@@ -22073,6 +22716,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22270,6 +22917,10 @@ PrefabInstance:
     - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_Name
       value: wall_passage.001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 406010, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22507,6 +23158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.452568
@@ -22633,6 +23288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4199085
@@ -22695,6 +23354,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22836,7 +23499,7 @@ GameObject:
   - component: {fileID: 1526952531}
   m_Layer: 0
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22873,7 +23536,7 @@ Transform:
   - {fileID: 617506769}
   - {fileID: 956416265}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1529587577
 PrefabInstance:
@@ -22949,6 +23612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.54
@@ -23011,6 +23678,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23138,6 +23809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 448174, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.369
@@ -23209,6 +23884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed_corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100584, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 450452, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.4574327
@@ -23272,6 +23951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wall_passage.001
       objectReference: {fileID: 0}
+    - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 406010, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.167946
@@ -23334,6 +24017,10 @@ PrefabInstance:
     - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_Name
       value: big_fence (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23460,6 +24147,10 @@ PrefabInstance:
     - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_Name
       value: wall_passage.001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 126398, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 406010, guid: 1ade54da60a4f364981ddab83a097c62, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23684,7 +24375,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573472396}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c54d167a2d858e044a6f897817ddda0e, type: 3}
   m_Name: 
@@ -23700,6 +24391,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23810,6 +24505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.85
@@ -23864,6 +24563,104 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+--- !u!1 &1593347675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593347679}
+  - component: {fileID: 1593347678}
+  - component: {fileID: 1593347677}
+  - component: {fileID: 1593347676}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1593347676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593347675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1593347677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593347675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1593347678
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593347675}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1593347679
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593347675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1595142498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23874,6 +24671,10 @@ PrefabInstance:
     - target: {fileID: 137980, guid: 38d61c06074002f4abcdf441b5283261, type: 3}
       propertyPath: m_Name
       value: well.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 137980, guid: 38d61c06074002f4abcdf441b5283261, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 499834, guid: 38d61c06074002f4abcdf441b5283261, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23937,6 +24738,10 @@ PrefabInstance:
     - target: {fileID: 168420, guid: 2b0bf804c6d79704d8c705b94af63855, type: 3}
       propertyPath: m_Name
       value: tree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 168420, guid: 2b0bf804c6d79704d8c705b94af63855, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 456142, guid: 2b0bf804c6d79704d8c705b94af63855, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24068,6 +24873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform
       objectReference: {fileID: 0}
+    - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 448174, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.29615
@@ -24194,6 +25003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.420088
@@ -24256,6 +25069,10 @@ PrefabInstance:
     - target: {fileID: 164862, guid: 57abdd11cedcad8478c764228178c11f, type: 3}
       propertyPath: m_Name
       value: stone_half_gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 164862, guid: 57abdd11cedcad8478c764228178c11f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 460226, guid: 57abdd11cedcad8478c764228178c11f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24428,6 +25245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35.12
@@ -24564,7 +25385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1677233789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24880,7 +25701,7 @@ Transform:
   m_LocalScale: {x: 150, y: 20, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1678826079
 PrefabInstance:
@@ -24892,6 +25713,10 @@ PrefabInstance:
     - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_Name
       value: wood_wall.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24959,6 +25784,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25030,6 +25859,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25421,6 +26254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.021 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.7607346
@@ -25492,6 +26329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: big_fence (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.620003
@@ -25550,7 +26391,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16526
+  m_Name: pb_Mesh16840
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25717,6 +26558,10 @@ PrefabInstance:
     - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_Name
       value: trunk (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 121916, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 444580, guid: 03d4692bad6ae2846b02d5e5cd5be76f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25910,6 +26755,10 @@ PrefabInstance:
     - target: {fileID: 100584, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed_corner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100584, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 450452, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26640,7 +27489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1810187926
 PrefabInstance:
@@ -26723,6 +27572,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26857,6 +27710,10 @@ PrefabInstance:
     - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_Name
       value: wood_wall.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 150378, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 428842, guid: 037edc94c4d25ab49a143371268aee98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27258,6 +28115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.520096
@@ -27636,6 +28497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.452567
@@ -27761,6 +28626,10 @@ PrefabInstance:
     - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_Name
       value: big_fence (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 181752, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 412106, guid: 34b237876876baf4fa134407d8dc57d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27892,6 +28761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform
       objectReference: {fileID: 0}
+    - target: {fileID: 199380, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 448174, guid: 2e85e654d9d08b54294966420d8a2155, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.29615
@@ -28021,6 +28894,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28345,6 +29222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall_detailed (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.54
@@ -28407,6 +29288,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28478,6 +29363,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28851,6 +29740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -28921,6 +29814,10 @@ PrefabInstance:
     - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_Name
       value: wood_wall.009 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29281,6 +30178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -29481,6 +30382,10 @@ PrefabInstance:
     - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 187976, guid: 564e49f56923de148b581d811733f251, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 461740, guid: 564e49f56923de148b581d811733f251, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29775,6 +30680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_wall.009 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160540, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 482608, guid: d24cbc466424f71408559463ee47e0cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.845837
@@ -29845,6 +30754,10 @@ PrefabInstance:
     - target: {fileID: 151826, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
       propertyPath: m_Name
       value: spice_bag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 151826, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 422110, guid: fad3894d33d323447a3187fbca3004cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29961,6 +30874,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2134982096}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2144106027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6948531168083568890, guid: 83cc7b7e472ef2a499823e7a14421e36,
+    type: 3}
+  m_PrefabInstance: {fileID: 708697108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2145336126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29971,6 +30890,10 @@ PrefabInstance:
     - target: {fileID: 100584, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
       propertyPath: m_Name
       value: stone_wall_detailed_corner
+      objectReference: {fileID: 0}
+    - target: {fileID: 100584, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 450452, guid: 5081fa4ee7ae4fd47b77c904b7ec80af, type: 3}
       propertyPath: m_LocalPosition.x

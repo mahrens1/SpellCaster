@@ -30,7 +30,7 @@ public class Spells : MonoBehaviour
             enemy.TakeDamage(damage);
             Destroy(gameObject);
         }
-        if (other.CompareTag("damageables"))
+        else if (other.CompareTag("damageables"))
         {
             var damageable = other.GetComponent<Damageable>();
 

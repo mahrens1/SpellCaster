@@ -8,6 +8,8 @@ TagManager:
   - Spells
   - damageables
   - enemy
+  - player
+  - level
   layers:
   - Default
   - TransparentFX

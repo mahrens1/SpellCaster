@@ -8,10 +8,16 @@ public class Enemy : MonoBehaviour
     public float curHealth;
     public float damage;
 
+    private Rigidbody rb;
+    private Animator animator;
+    private readonly int movementAnimParam = Animator.StringToHash("movementInput");
+
     // Start is called before the first frame update
     void Start()
     {
         curHealth = maxHealth;
+        rb = GetComponent<Rigidbody>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -28,6 +34,8 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        movementInput();
     }
 
     public void TakeDamage(float amount)
@@ -42,4 +50,9 @@ public class Enemy : MonoBehaviour
         return playerHealth;
     }
 
+    public void movementInput()
+    {
+        var input = new Vector2(rb.velocity.x, rb.velocity.y);
+        animator.SetFloat(movementAnimParam, input.magnitude);
+    }
 }

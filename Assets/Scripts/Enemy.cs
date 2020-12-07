@@ -6,7 +6,8 @@ public class Enemy : MonoBehaviour
 {
     public float maxHealth;
     public float curHealth;
-    public float damage;
+    public int damage;
+    private Vector2 input;
 
     private Rigidbody rb;
     private Animator animator;
@@ -18,6 +19,7 @@ public class Enemy : MonoBehaviour
         curHealth = maxHealth;
         rb = GetComponent<Rigidbody>();
         animator = GetComponentInChildren<Animator>();
+        damage = 1;
     }
 
     // Update is called once per frame
@@ -35,6 +37,9 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);
         }
 
+        input.x = Input.GetAxisRaw("Horizontal");
+        input.y = Input.GetAxisRaw("Vertical");
+
         movementInput();
     }
 
@@ -43,7 +48,7 @@ public class Enemy : MonoBehaviour
         curHealth -= amount;
     }
 
-    public float DealDamageToPlayer(float playerHealth)
+    public float DealDamageToPlayer(int playerHealth)
     {
         playerHealth -= damage;
 
@@ -52,7 +57,6 @@ public class Enemy : MonoBehaviour
 
     public void movementInput()
     {
-        var input = new Vector2(rb.velocity.x, rb.velocity.y);
         animator.SetFloat(movementAnimParam, input.magnitude);
     }
 }

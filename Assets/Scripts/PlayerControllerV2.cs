@@ -14,10 +14,10 @@ public class PlayerControllerV2 : MonoBehaviour
     private Vector2 input;
     private new Collider collider;
     private bool isOnGround;
-    public float curHealth;
+    public int curHealth;
     private Animator animator;
     private readonly int movementAnimParam = Animator.StringToHash("movementInput");
-    private readonly int jumpAnimParam = Animator.StringToHash("jumpInput");
+    private readonly int jumpAnimParam = Animator.StringToHash("isOnGround");
 
     [SerializeField] [Tooltip("0 = No Turning, 1 = Instant Snap")] [Range(0, 1)] private float turnspeed = 0.1f;
     
@@ -29,6 +29,8 @@ public class PlayerControllerV2 : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
 
         isOnGround = true;
+        curHealth = 5;
+        Cursor.visible = false;
     }
 
     private void FixedUpdate()
@@ -61,22 +63,22 @@ public class PlayerControllerV2 : MonoBehaviour
             playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         }
 
-        //JumpInput();
+
 
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.other.gameObject.tag == "ground")
+        if(collision.collider.gameObject.CompareTag("ground"))
         {
             isOnGround = true;
         }    
         
-        if(collision.other.gameObject.tag == "enemy")
+        if(collision.collider.gameObject.CompareTag("enemy"))
         {
-            var enemy = collision.other.gameObject.GetComponent<Enemy>();
+            var enemy = collision.collider.gameObject.GetComponent<Enemy>();
 
-            curHealth = enemy.DealDamageToPlayer(curHealth);
+            curHealth = (int)enemy.DealDamageToPlayer(curHealth);
         }
     }
 
@@ -84,8 +86,9 @@ public class PlayerControllerV2 : MonoBehaviour
     {
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
-
+        JumpInput();
         movementInput();
+        CheckDeath();
     }
 
     /// <summary>
@@ -94,7 +97,6 @@ public class PlayerControllerV2 : MonoBehaviour
     public void movementInput()
     {
         animator.SetFloat(movementAnimParam, input.magnitude);
-
     }
 
     /// <summary>
@@ -102,7 +104,14 @@ public class PlayerControllerV2 : MonoBehaviour
     /// </summary>
     public void JumpInput()
     {
+        animator.SetBool(jumpAnimParam, isOnGround);
+    }
 
-        animator.SetFloat(jumpAnimParam, input.y);
+    public void CheckDeath()
+    {
+        if(curHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

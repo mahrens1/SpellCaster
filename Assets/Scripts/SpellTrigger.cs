@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum SpellState { fireball, lightningbolt }
 
@@ -13,6 +14,11 @@ public class SpellTrigger : MonoBehaviour
     public bool canShoot;
 
     public List<GameObject> projectileList;
+
+    [SerializeField] Text CooldownText;
+    [SerializeField] Sprite fireballImage;
+    [SerializeField] Sprite iceshardImage;
+    [SerializeField] Image spellImage;
 
     public SpellState State;
 
@@ -34,7 +40,7 @@ public class SpellTrigger : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             SwitchSpellState();
         }
@@ -48,13 +54,15 @@ public class SpellTrigger : MonoBehaviour
             case SpellState.fireball:
 
                 State = SpellState.lightningbolt;
-                m_Projectile = projectileList[0];
+                m_Projectile = projectileList[1];
+                spellImage.sprite = iceshardImage;
                 break;
 
             case SpellState.lightningbolt:
 
                 State = SpellState.fireball;
-                m_Projectile = projectileList[1];
+                m_Projectile = projectileList[0];
+                spellImage.sprite = fireballImage;
                 break;
         }
     }
@@ -62,6 +70,11 @@ public class SpellTrigger : MonoBehaviour
     public IEnumerator Attack()
     {
         Instantiate(m_Projectile, playerTransform.position, playerTransform.rotation);
+
+        for (int i = shotCooldown; i > 0; i--)
+        {
+            UpdateShotCooldownCanvas(i);
+        }
         yield return StartCoroutine(WaitForCooldown(shotCooldown));
         canShoot = true;
     }
@@ -69,5 +82,10 @@ public class SpellTrigger : MonoBehaviour
     public IEnumerator WaitForCooldown(float cooldown)
     {
         yield return new WaitForSeconds(cooldown);
+    }
+
+    public void UpdateShotCooldownCanvas(int cooldown)
+    {
+        CooldownText.text = cooldown.ToString();
     }
 }

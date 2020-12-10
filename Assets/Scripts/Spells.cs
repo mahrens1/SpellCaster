@@ -37,5 +37,10 @@ public class Spells : MonoBehaviour
             damageable.TakeDamage(damage);
             Destroy(gameObject);
         }
+        else if (!other.CompareTag("player"))
+        {
+            Destroy(gameObject);
+        }
+
     }
 }

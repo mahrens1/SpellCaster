@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerV2 : MonoBehaviour
 {
@@ -15,12 +16,14 @@ public class PlayerControllerV2 : MonoBehaviour
     private new Collider collider;
     private bool isOnGround;
     public int curHealth;
+    public bool isDead;
     private Animator animator;
     private readonly int movementAnimParam = Animator.StringToHash("movementInput");
-    private readonly int jumpAnimParam = Animator.StringToHash("isOnGround");
+    private readonly int jumpAnimParam = Animator.StringToHash("jumpInput");
+    private readonly int deathAnimParam = Animator.StringToHash("playerHealth");
 
     [SerializeField] [Tooltip("0 = No Turning, 1 = Instant Snap")] [Range(0, 1)] private float turnspeed = 0.1f;
-    
+
 
     private void Start()
     {
@@ -28,12 +31,74 @@ public class PlayerControllerV2 : MonoBehaviour
         collider = GetComponent<Collider>();
         animator = GetComponentInChildren<Animator>();
 
-        isOnGround = true;
-        curHealth = 5;
         Cursor.visible = false;
+
+        curHealth = 5;
+
+        isOnGround = true;
+        isDead = false;
     }
 
     private void FixedUpdate()
+    {
+        Vector3 cameraRelativeInputDirection = GetCameraRelativeInputDirection();
+
+        UpdatePhysicsMaterial();
+
+        Move(cameraRelativeInputDirection);
+
+        RotateToFaceInputDirection(cameraRelativeInputDirection);
+
+        //Jump
+        if (Input.GetKey(KeyCode.Space) && isOnGround)
+        {
+            isOnGround = false;
+            playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+        }
+
+        //JumpInput();
+
+    }
+
+    /// <summary>
+    /// Turning the character to face the direction it wants to move in.
+    /// </summary>
+    /// <param name="movementDirection"> The direction the character is trying to move in. </param>
+    private void RotateToFaceInputDirection(Vector3 movementDirection)
+    {
+        if (movementDirection.magnitude > 0)
+        {
+            var targetRotation = Quaternion.LookRotation(movementDirection);
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnspeed);
+        }
+    }
+
+    /// <summary>
+    /// Moves the player in a direction based on its max speed.
+    /// </summary>
+    /// <param name="moveDirection"> The direction to move in. </param>
+    private void Move(Vector3 moveDirection)
+    {
+        if (playerRb.velocity.magnitude < maxSpeed)
+        {
+            playerRb.AddForce(moveDirection * accelerationForce, ForceMode.Acceleration);
+        }
+    }
+
+    /// <summary>
+    /// Updates physics material to a low friction option if player is moving 
+    /// or a high friction option if trying to stop.
+    /// </summary>
+    private void UpdatePhysicsMaterial()
+    {
+        collider.material = input.magnitude > 0 ? movingPhysicsMaterial : stoppingPhysicsMaterial;
+    }
+
+    /// <summary>
+    /// Uses the input of Vector to create camera relative version so the player can move based on the camera.
+    /// </summary>
+    /// <returns> cameraRelativeInputDirection. </returns>
+    private Vector3 GetCameraRelativeInputDirection()
     {
         var inputDirection = new Vector3(input.x, 0, input.y);
 
@@ -43,40 +108,19 @@ public class PlayerControllerV2 : MonoBehaviour
 
         Vector3 cameraRelativeInputDirection = cameraRotation * inputDirection;
 
-        collider.material = inputDirection.magnitude > 0 ? movingPhysicsMaterial : stoppingPhysicsMaterial;
-
-        if (playerRb.velocity.magnitude < maxSpeed)
-        {
-            playerRb.AddForce(cameraRelativeInputDirection * accelerationForce, ForceMode.Acceleration);
-        }
-
-        if (cameraRelativeInputDirection.magnitude > 0)
-        {
-            var targetRotation = Quaternion.LookRotation(cameraRelativeInputDirection);
-            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnspeed);
-        }
-
-        //Jump
-        if (Input.GetKey(KeyCode.Space) && isOnGround)
-        {
-            isOnGround = false;
-            playerRb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
-        }
-
-
-
+        return cameraRelativeInputDirection;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.collider.gameObject.CompareTag("ground"))
+        if (collision.other.gameObject.tag == "ground")
         {
             isOnGround = true;
-        }    
-        
-        if(collision.collider.gameObject.CompareTag("enemy"))
+        }
+
+        if (collision.other.gameObject.tag == "enemy")
         {
-            var enemy = collision.collider.gameObject.GetComponent<Enemy>();
+            var enemy = collision.other.gameObject.GetComponent<Enemy>();
 
             curHealth = (int)enemy.DealDamageToPlayer(curHealth);
         }
@@ -86,8 +130,9 @@ public class PlayerControllerV2 : MonoBehaviour
     {
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
-        JumpInput();
+
         movementInput();
+        DeathInput();
         CheckDeath();
     }
 
@@ -104,14 +149,38 @@ public class PlayerControllerV2 : MonoBehaviour
     /// </summary>
     public void JumpInput()
     {
-        animator.SetBool(jumpAnimParam, isOnGround);
+        animator.SetFloat(jumpAnimParam, input.y);
+    }
+
+    public void DeathInput()
+    {
+        animator.SetInteger(deathAnimParam, curHealth);
     }
 
     public void CheckDeath()
     {
-        if(curHealth <= 0)
+        if (curHealth <= 0)
         {
-            Destroy(gameObject);
+            var playerscript = gameObject.GetComponent<PlayerControllerV2>();
+            playerscript.enabled = false;
+
+            DeathAnimation();
+
+            if (isDead == true)
+            {
+                SceneManager.LoadScene("Mainworld");
+            }
+
         }
+    }
+
+    public IEnumerator DeathAnimation()
+    {
+        yield return StartCoroutine(WaitForSeconds(10));
+    }
+
+    public IEnumerator WaitForSeconds(float cooldown)
+    {
+        yield return new WaitForSeconds(cooldown);
     }
 }

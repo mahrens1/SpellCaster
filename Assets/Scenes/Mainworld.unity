@@ -3187,7 +3187,7 @@ PrefabInstance:
     - target: {fileID: 1135313545801412971, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.011878636
+      value: 0.011878635
       objectReference: {fileID: 0}
     - target: {fileID: 1135313545801412971, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -3202,7 +3202,7 @@ PrefabInstance:
     - target: {fileID: 1135313545801412971, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.07319988
+      value: 0.073199876
       objectReference: {fileID: 0}
     - target: {fileID: 1135313546481925926, guid: eec86197d9106fd418ee2265a78e43e6,
         type: 3}
@@ -8544,6 +8544,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6948531168083568893, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: stoppingPhysicsMaterial
+      value: 
+      objectReference: {fileID: 13400000, guid: 354496b2f661f8544a7d51b4a9fea86b,
+        type: 2}
+    - target: {fileID: 6948531168083568893, guid: 83cc7b7e472ef2a499823e7a14421e36,
+        type: 3}
+      propertyPath: movingPhysicsMaterial
+      value: 
+      objectReference: {fileID: 13400000, guid: 32ad642440ef2244bb627236299e8781,
+        type: 2}
     - target: {fileID: 6948531168083568895, guid: 83cc7b7e472ef2a499823e7a14421e36,
         type: 3}
       propertyPath: m_LocalPosition.x

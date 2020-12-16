@@ -71,10 +71,6 @@ public class SpellTrigger : MonoBehaviour
     {
         Instantiate(m_Projectile, playerTransform.position, playerTransform.rotation);
 
-        for (int i = shotCooldown; i > 0; i--)
-        {
-            UpdateShotCooldownCanvas(i);
-        }
         yield return StartCoroutine(WaitForCooldown(shotCooldown));
         canShoot = true;
     }

@@ -51,6 +51,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  destroyedEffect: {fileID: 198220379293217532, guid: d8f0099df63275647a8bcf646df1ca00,
+    type: 3}
 --- !u!54 &1547559082018693555
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -124,6 +124,7 @@ public class PlayerControllerV2 : MonoBehaviour
 
             curHealth = (int)enemy.DealDamageToPlayer(curHealth);
         }
+
     }
 
     private void Update()

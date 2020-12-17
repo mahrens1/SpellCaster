@@ -4785,8 +4785,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.5234346
-  m_Center: {x: 0, y: 0, z: 1}
+  m_Radius: 1.6693634
+  m_Center: {x: 0, y: 3.3881318e-21, z: 1}
 --- !u!114 &8805542609659072605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4802,6 +4802,7 @@ MonoBehaviour:
   m_Speed: 20
   m_Lifespan: 4
   damage: 1
+  effect: {fileID: 198656289721292014, guid: 64891a0eb28db934898420d80ca07cb3, type: 3}
 --- !u!1 &5280422911507063125
 GameObject:
   m_ObjectHideFlags: 0
